@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #22222200;
+  padding: 30px 100px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.projects_link a {
+  color: rgb(179, 194, 46);
+  text-decoration: none;
+}
+
+.resume_link a {
+  color: rgb(28, 180, 64);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.searchbar {
+  padding: 6px;
+  border-radius: 6px;
+}
