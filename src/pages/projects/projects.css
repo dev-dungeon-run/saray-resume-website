@@ -81,19 +81,91 @@ button {
     border-radius: 10px;
 }
 
+
+
+
 .contact-info-button {
+    position: relative;
+    width: 100%;
     height: 100%;
-    border: grey solid 3px;
     border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    cursor: pointer;
 
     background-image: 
-      /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
-      url("../../assets/project_page_images/creepy_girl_falling_well.png");
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../assets/project_page_images/girlOnStairsWithcreepyEyes.png");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    border: none;
+    color: white;
 }
+
+/* 🔥 bottom-left glass card */
+.contact-overlay {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+    max-width: 280px;
+
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(6px);
+
+    padding: 12px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    text-align: left;
+}
+
+/* name */
+.contact-overlay h2 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+/* links layout */
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+/* links style */
+.contact-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* description */
+.contact-desc {
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+/* ✨ hover effect */
+.contact-info-button:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
 
 .div-2 {
     flex: 2;
@@ -136,7 +208,29 @@ button {
 
     background-image: 
       /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
-      url("../../assets/project_page_images/mountain_lanscape_website1.png");
+      url("../../assets/project_page_images/placeHolderFrogGirl.jpg");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+
+}
+
+.website-2-button-div2 {
+    background-image: 
+      /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+      url("../../assets/project_page_images/theDevilsWifeAndTheLittleDevil.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.website-3-button-div2 {
+    background-image: 
+      /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+      url("../../assets/project_page_images/monsterRoofTopReading.png");
 
     background-size: cover;
     background-position: center;
@@ -167,6 +261,14 @@ button {
     border-radius: 10px;
 
     flex: 3;
+
+    background-image: 
+      /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+      url("../../assets/project_page_images/creepy_girl_falling_well.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .website-5-button {
@@ -178,6 +280,14 @@ button {
 
     flex: 2;
 
+    background-image: 
+      /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+      url("../../assets/project_page_images/creepyAndCuteMonsterReadingOnDesk.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .website-6-button {
@@ -188,4 +298,13 @@ button {
     border-radius: 10px;
 
     flex: 2;
+
+
+    background-image: 
+      /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+      url("../../assets/project_page_images/marvel_character_defauls_placeholder.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

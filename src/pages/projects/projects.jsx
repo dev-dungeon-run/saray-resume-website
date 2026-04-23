@@ -10,8 +10,35 @@ function Projects() {
             <button className="all-project-div all-projects-button">
               All Projects
             </button>
-            <button className="all-project-div contact-info-button">
-              Contact Info
+            <button className="contact-info-button">
+              <div className="contact-overlay">
+                <h1>Saray Alexandra Martinez</h1>
+
+                <p className="contact-desc">
+                  Adaptable and fast-learning student experienced in bilingual environments,
+                  with a passion for language learning, art, and psychological thrillers.
+                </p>
+
+                <div className="contact-links">
+                  <a href="mailto:sarayalexandra.martinez@gmail.com">
+                    sarayalexandra.martinez@gmail.com
+                  </a>
+
+                  <a href="tel:4432135785">
+                    443 213 5785
+                  </a>
+
+                  <a href="https://github.com/Saristeidyn" target="_blank" rel="noreferrer">
+                    GitHub: Saristeidyn
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/saray-martinez-sam" target="_blank" rel="noreferrer">
+                    LinkedIn: saray-martinez-sam
+                  </a>
+                </div>
+
+                
+              </div>
             </button>
           </div>
 
