@@ -1,4 +1,6 @@
 import "./projects.css";
+import "./shared.css"
+import "./div-1.css"
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
 import Navbar from "../../shared/navbar/navbar.jsx";
@@ -7,8 +9,7 @@ function Projects() {
   return (
     <div className="projects-page">
       <Navbar />
-      
-      <h1 className="projects_header">Projects</h1>
+
       <div className="projects-container">
         <div className="contactInfo-allProjects-container">
           <div className="div div-1">
@@ -18,7 +19,7 @@ function Projects() {
               </p>
             </button>
             <button className="contact-info-button">
-              <div className="contact-overlay">
+              <div className="website_dives">
                 <h1>Saray Alexandra Martinez</h1>
 
                 <p className="contact-desc">
@@ -57,15 +58,53 @@ function Projects() {
 
           <div className="div div-2">
             <div className="divs-2 div2-1">
-              <button className="website-1-button-div2 button_div2">Website 1</button>
+              <button className="website-1-button-div2 button_div2">
+                <div className="website1-div website_dives">
+                  <h1>
+                    Website1
+                  </h1>
+
+                  <h2>
+                    name of the project
+                  </h2>
+                  <button>
+                    View Project
+                  </button>
+
+                </div>
+              </button>
 
             </div>
             <div className="divs-2 div2-2">
               <button className="button_div2 website-2-button-div2">
-                website 2
+                <div className="website2-div website_dives">
+                  <h1>
+                    Website2
+                  </h1>
+
+                  <h2>
+                    name of the project
+                  </h2>
+                  <button>
+                    View Project
+                  </button>
+
+                </div>
               </button>
               <button className="button_div2 website-3-button-div2">
-                website 3
+                <div className="website3-div website_dives">
+                  <h1>
+                    Website3
+                  </h1>
+
+                  <h2>
+                    name of the project
+                  </h2>
+                  <button>
+                    View Project
+                  </button>
+
+                </div>
               </button>
             </div>
           </div>
@@ -78,13 +117,49 @@ function Projects() {
 
           <div className="div div-3">
             <button className="div_3_buttons website-4-button">
-              Website 4
+              <div className="website2-div website_dives">
+                  <h1>
+                    Website2
+                  </h1>
+
+                  <h2>
+                    name of the project
+                  </h2>
+                  <button>
+                    View Project
+                  </button>
+
+                </div>
             </button>
             <button className="div_3_buttons website-5-button">
-              Website 5
+              <div className="website2-div website_dives">
+                  <h1>
+                    Website2
+                  </h1>
+
+                  <h2>
+                    name of the project
+                  </h2>
+                  <button>
+                    View Project
+                  </button>
+
+                </div>
             </button>
             <button className="div_3_buttons website-6-button">
-              Website 6
+              <div className="website2-div website_dives">
+                  <h1>
+                    Website2
+                  </h1>
+
+                  <h2>
+                    name of the project
+                  </h2>
+                  <button>
+                    View Project
+                  </button>
+
+                </div>
 
             </button>
 
