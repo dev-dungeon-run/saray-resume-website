@@ -1,14 +1,21 @@
 import "./projects.css";
+import { Link } from "react-router-dom";
+import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
+import Navbar from "../../shared/navbar/navbar.jsx";
 
 function Projects() {
   return (
     <div className="projects-page">
+      <Navbar />
+      
       <h1 className="projects_header">Projects</h1>
       <div className="projects-container">
         <div className="contactInfo-allProjects-container">
           <div className="div div-1">
             <button className="all-project-div all-projects-button">
-              All Projects
+              <p>
+                All Projects
+              </p>
             </button>
             <button className="contact-info-button">
               <div className="contact-overlay">
@@ -21,23 +28,23 @@ function Projects() {
 
                 <div className="contact-links">
                   <a href="mailto:sarayalexandra.martinez@gmail.com">
-                    sarayalexandra.martinez@gmail.com
+                    <FaEnvelope /> sarayalexandra.martinez@gmail.com
                   </a>
 
                   <a href="tel:4432135785">
-                    443 213 5785
+                    <FaPhone /> 443 213 5785
                   </a>
 
                   <a href="https://github.com/Saristeidyn" target="_blank" rel="noreferrer">
-                    GitHub: Saristeidyn
+                    <FaGithub /> Saristeidyn
                   </a>
 
                   <a href="https://www.linkedin.com/in/saray-martinez-sam" target="_blank" rel="noreferrer">
-                    LinkedIn: saray-martinez-sam
+                    <FaLinkedin /> saray-martinez-sam
                   </a>
                 </div>
 
-                
+
               </div>
             </button>
           </div>
