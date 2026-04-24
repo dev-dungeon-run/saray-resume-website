@@ -38,15 +38,26 @@ ul {
 
   background-color: rgb(180, 184, 188);
   color: rgb(25, 25, 24);
+  box-shadow: 3px 3px 0px black;
+
+  font-family: 'Bangers', cursive;
 }
 
 /* specific colors */
-.projects_link a {
-  box-shadow: 3px 3px 0px black;
+.projects_link a:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  cursor: pointer;
+
+  background-color: rgb(192, 113, 113);
 }
 
-.resume_link a {
-  box-shadow: 3px 3px 0px black;
+.resume_link a:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  cursor: pointer;
+
+  background-color: rgb(168, 114, 168);
 }
 
 .projects_link a:active,

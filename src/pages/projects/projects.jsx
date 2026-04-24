@@ -67,7 +67,7 @@ function Projects() {
                   <h2>
                     name of the project
                   </h2>
-                  <button>
+                  <button className="view-project-button website1-view-project-button">
                     View Project
                   </button>
 
@@ -85,7 +85,7 @@ function Projects() {
                   <h2>
                     name of the project
                   </h2>
-                  <button>
+                  <button className="view-project-button website2-view-project-button">
                     View Project
                   </button>
 
@@ -100,7 +100,7 @@ function Projects() {
                   <h2>
                     name of the project
                   </h2>
-                  <button>
+                  <button className="view-project-button website3-view-project-button">
                     View Project
                   </button>
 
@@ -125,7 +125,7 @@ function Projects() {
                   <h2>
                     name of the project
                   </h2>
-                  <button>
+                  <button className="view-project-button website4-view-project-button">
                     View Project
                   </button>
 
@@ -140,7 +140,7 @@ function Projects() {
                   <h2>
                     name of the project
                   </h2>
-                  <button>
+                  <button className="view-project-button website5-view-project-button">
                     View Project
                   </button>
 
@@ -155,7 +155,7 @@ function Projects() {
                   <h2>
                     name of the project
                   </h2>
-                  <button>
+                  <button className="view-project-button website6-view-project-button">
                     View Project
                   </button>
 

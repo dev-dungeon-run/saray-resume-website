@@ -1,6 +1,75 @@
+/* website dive buttons hover */
+.website1-view-project-button:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+    cursor: pointer;
+
+    background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(197, 228, 208, 0.5)), */
+        url("../../assets/project_page_images/placeHolderFrogGirl.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
 
 
+}
 
+.website2-view-project-button:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+    cursor: pointer;
+
+    background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(219, 182, 192, 0.5)), */
+        url("../../assets/project_page_images/theDevilsWifeAndTheLittleDevil.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.website3-view-project-button:hover {
+    background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(219, 182, 192, 0.5)), */
+        url("../../assets/project_page_images/monsterRoofTopReading.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.website4-view-project-button:hover {
+    background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(219, 182, 192, 0.5)), */
+        url("../../assets/project_page_images/creepy_girl_falling_well.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.website5-view-project-button:hover {
+    background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(219, 182, 192, 0.5)), */
+        url("../../assets/project_page_images/creepyAndCuteMonsterReadingOnDesk.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.website6-view-project-button:hover {
+    background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(219, 182, 192, 0.5)), */
+        url("../../assets/project_page_images/marvel_character_defauls_placeholder.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 

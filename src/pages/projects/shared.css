@@ -142,8 +142,7 @@ button:hover {
   border: 2px solid black;
   border-radius: 6px;
 
-  background: rgb(239, 148, 207);
-  color: white;
+  color: rgb(18, 18, 18);
 
   box-shadow: 3px 3px 0px black;
   cursor: pointer;
