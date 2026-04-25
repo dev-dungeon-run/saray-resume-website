@@ -2,7 +2,7 @@
   "name": "website-resume",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://saristeidyn.github.io/saray-resume-website",
+  "homepage": "https://dev-dungeon-run.github.io/saray-resume-website",
   "type": "module",
   "scripts": {
     "dev": "vite",

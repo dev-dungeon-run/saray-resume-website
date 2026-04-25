@@ -48,7 +48,6 @@ h1 {
     /* prevents it from getting too tall */
     max-height: 700px;
 
-
 }
 
 .div {
@@ -59,23 +58,21 @@ h1 {
 }
 
 
-
-
-
-
-
-/* buttons */
-button {
-    width: 100%;
-    padding: 10px 20px;
-    border: 3px solid rgb(0, 0, 0);
-
-    box-shadow: 6px 6px 0px black;
-
-    border-radius: 10px;
+.view-project-button {
+    font-family: 'Bangers', cursive;
 }
 
-button:hover {
+
+
+
+
+
+
+/* +++++++++++++++++ */
+/* HERE */
+/* +++++++++++++++++ */
+button:hover, .website-1-button-div2:hover, .website-2-button-div2:hover,
+ .website-3-button-div2:hover, .website-4-button:hover, .website-5-button:hover, .website-6-button:hover {
     transform: scale(1.02);
     transition: 0.2s;
     cursor: pointer;
@@ -87,6 +84,16 @@ button:hover {
     justify-content: start;
 }
 
+
+button, .button_div2, .div_3_buttons{
+    width: 100%;
+    padding: 10px 20px;
+    border: 3px solid rgb(0, 0, 0);
+
+    box-shadow: 6px 6px 0px black;
+
+    border-radius: 10px;
+}
 
 
 
@@ -115,6 +122,8 @@ button:hover {
   box-shadow: 5px 5px 0px black;
   overflow: hidden;
   transition: 0.2s;
+
+  line-height: 1.2;
 }
 
 .website_dives h1 {
@@ -123,7 +132,7 @@ button:hover {
   
   letter-spacing: 1px;
 
-  text-shadow: 2px 2px 0px black;
+
 }
 
 .website_dives h2 {
@@ -132,8 +141,11 @@ button:hover {
   opacity: 0.9;
 }
 
-.website_dives button {
+
+
+.button_div2 a, .div_3_buttons a {
   align-self: flex-start;
+  height: 15px;
 
   padding: 6px 12px;
   font-size: 10px;
@@ -146,6 +158,9 @@ button:hover {
 
   box-shadow: 3px 3px 0px black;
   cursor: pointer;
+  background-color: aliceblue;
 
   transition: 0.15s;
 }
+
+
