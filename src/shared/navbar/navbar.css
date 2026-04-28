@@ -69,4 +69,6 @@ ul {
 .searchbar {
   padding: 6px;
   border-radius: 6px;
+  width: 20%;
+  max-width: 200px;
 }

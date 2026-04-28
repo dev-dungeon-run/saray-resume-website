@@ -10,14 +10,11 @@
     background-repeat: repeat;
 
     min-height:100%;  ;
+    width: 100%;
 
 }
 
-.projects_header {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: rgb(223, 223, 223);
-}
+
 
 .projects-page {
     display: flex;
