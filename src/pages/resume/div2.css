@@ -1,5 +1,5 @@
 .main_div2 {
-        display: flex;
+    display: flex;
     flex-direction: row;
 
     align-items: center;
@@ -10,3 +10,95 @@
     background-color: aliceblue;
 }
 
+.divs2 {
+    height: 100%;
+
+    flex: 1;
+}
+
+/* ******************/
+/* 1st seperate div */
+/* **************** */
+.divs2_1 {
+    display: flex;
+    flex-direction: column;
+
+    background-color: aqua;
+}
+
+.education_container {
+    flex: 3;
+
+    background-color: beige;
+}
+
+.abtMe_conatiner {
+    flex: 2;
+
+    background-color: antiquewhite;
+}
+
+.jobs_projects_container {
+    flex: 5;
+
+    background-color: blue;
+}
+
+
+
+
+
+
+/* ******************/
+/* 2st seperate div */
+/* **************** */
+.divs2_2 {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(133, 127, 255);
+}
+
+.skills_container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+
+    flex: 3;
+
+    background-color: blueviolet;
+}
+
+.skills_1 {
+    display: flex;
+    flex-direction: row;
+
+    flex: 3;
+
+    background-color: aliceblue;
+}
+
+.skills_1_1 {
+    flex: 1;
+
+    background-color: brown;
+}
+
+.skills_1_2 {
+    flex: 1;
+
+    background-color: rgb(221, 141, 141);
+}
+
+.skills_2 {
+    flex: 1;
+
+    background-color: azure;
+}
+
+.funFactsAbtMe_container {
+    flex: 1;
+
+    background-color: rgb(148, 116, 178);
+}

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./div1.css"
 import "./div2.css"
+import "./div3.css"
 import "./resume.css"
 import "./shared.css"
 
@@ -65,18 +66,76 @@ function Resume() {
             </div>
           </div>
 
+
+
+
+
           {/* ++++++++++++ */}
           {/* main div 2 */}
           {/* ****************** */}
           <div class="main_div main_div2">
+            <div className="divs2 divs2_1">
+              <div className="education_container">
+                <h1>Education</h1>
+              </div>
+
+              <div className="abtMe_conatiner">
+                <h2>About Me</h2>
+
+              </div>
+
+              <div className="jobs_projects_container">
+                <h1>Experience</h1>
+
+              </div>
 
 
+            </div>
+
+
+
+
+            {/* second div */}
+            <div className="divs2 divs2_2">
+
+              <div className="skills_container">
+                <h1>Skills</h1>
+
+                <div className="skills_1">
+                  <div className="skills skills_1_1">
+
+                  </div>
+
+                  <div className="skills skills_1_2">
+
+                  </div>
+                </div>
+
+                <div className="skills_2">
+
+                </div>
+
+              </div>
+
+              <div className="funFactsAbtMe_container">
+                <h1>Fun Facts</h1>
+
+              </div>
+
+
+            </div>
           </div>
 
 
 
           <div class="main_div main_div3">
+            <div className="divs_3 interestStrengths_container">
+              <h1>Interest And Strengths</h1>
+            </div>
 
+            <div className="divs_3 languages_container">
+              <h1>Languages</h1>
+            </div>
           </div>
         </div>
       </div>
