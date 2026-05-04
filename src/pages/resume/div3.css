@@ -6,17 +6,56 @@
 
     padding: 5px;
 
-    background-color: aliceblue;
 }
 
 .interestStrengths_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
     flex: 4;
 
-    background-color: antiquewhite;
 }
 
 .languages_container {
     flex: 3;
 
-    background-color: aquamarine;
+}
+
+.languages_container {
+  width: 100%;
+  padding: 20px;
+}
+
+.language {
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 100%;
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* percentages */
+.english {
+  width: 100%;
+  background-color: #4CAF50;
+}
+
+.spanish {
+  width: 90%;
+  background-color: #2196F3;
+}
+
+.french {
+  width: 45%;
+  background-color: #FF9800;
 }

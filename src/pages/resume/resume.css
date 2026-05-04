@@ -6,7 +6,7 @@
     height: 100;
 
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
+        linear-gradient(rgba(0, 0, 0, 0.705), rgb(0, 0, 0)),
         url("../../assets/project_page_images/girlLovingACuteCat.jpg");
 
     background-size: contain;
@@ -14,15 +14,10 @@
     background-size: 300px; /* or any fixed size */
     background-repeat: repeat;
 
- 
-    background-color: aliceblue;
     width: 100vw;
     font-family: 'Bangers', cursive;
 
-
-
     margin: 0px;
-
 }
 
 .resume_container {
@@ -32,6 +27,7 @@
 
     align-items: start;
     justify-content: center;
+    
 
 }
 
@@ -44,7 +40,7 @@
     
     aspect-ratio: 1 / 1.6;
 
-    background-color: rgba(0, 0, 0, 0.415);
+    background-color: rgba(210, 199, 199, 0.885);
 
     gap: 20px;
 
