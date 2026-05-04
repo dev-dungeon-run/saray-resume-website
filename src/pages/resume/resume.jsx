@@ -25,44 +25,32 @@ function Resume() {
 
               <img src={meImg} alt="" className="resume_image" />
 
-              <div className="myName_Student">
-                <h1 className="sarayMartinez">Saray Alexandra <br /> Martinez</h1>
+              <div className="nameLocation">
+                <div className="myName_Student">
+                  <h1 className="sarayMartinez">Saray Alexandra <br /> Martinez</h1>
 
-                <div className="line"></div>
+                  <div className="line"></div>
 
-                <h2>Software Engineering Student</h2>
+                  <h2>Software Engineering Student</h2>
+
+                </div>
+                <div className="location">
+                  <p> this is me ladi da</p>
+                  <button className="location">
+                    Location: León, GTO
+                  </button>
+                </div>
               </div>
 
             </div>
 
+
+
             <div className="div1_2 div1">
-              <div className="div1_2_1">
-                <p> this is me ladi da</p>
-                <button className="location">
-                  Location
-                </button>
-              </div>
-
-
-
-
-
-
-              <div className="div1_2_2">
-                <div className="git_linkedin_download_butttons_container">
-                  <div className="div1_2_2_1">
-                    <button> git</button>
-                    <button>linkedin </button>
-                  </div>
-
-                  <div className="div1_2_2_2">
-                    <button>Download</button>
-                  </div>
-                </div>
-
-                <button> email</button>
-
-              </div>
+              <button> git</button>
+              <button>linkedin </button>
+              <button>Download</button>
+              <button> email</button>
             </div>
           </div>
 
@@ -93,7 +81,7 @@ function Resume() {
 
               <div className="abtMe_conatiner">
                 <h2>About Me</h2>
-                <p className="aboutMe_paragraph">I’m a Software Engineering student at La Salle Bajío, born to immigrant parents, originally from Georgia and raised in the United States. Living between cultures has shaped my perspective on communication and language, and I enjoy hearing and experiencing new ones. I’m also interested in personal growth and inner peace, which influence how I approach both life and my work. I enjoy building interactive and thoughtful projects that combine creativity and technology.</p>
+                <p className="aboutMe_paragraph">I’m a Software Engineering student at La Salle Bajío, originally from Georgia and raised in the United States. Living between cultures has shaped my perspective on communication and language, and I enjoy hearing and experiencing new ones. I’m also interested in personal growth and inner peace, which influence how I approach both life and my work. I enjoy building interactive and thoughtful projects that combine creativity and technology.</p>
 
               </div>
 

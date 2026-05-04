@@ -7,6 +7,12 @@
 
     padding: 0px;
 
+    background-image:
+        url("../../assets/resume_page_images/div1_1Background.png");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 
@@ -20,15 +26,51 @@
     flex-direction: row;
 
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
-    flex: 2;
-    background-color: tomato;
+    padding: 15px;
+
+    flex: 3;
 }
 
 .resume_image {
     height: 29vh;
     max-height: 300px;
+    width: auto;
+
+    /* soft paper frame */
+    background: #fdf8f1;
+    padding: 14px;
+
+    /* thin soft border like the mockup */
+    border: 2px solid #8da0b8;
+
+    /* subtle rounded corners */
+    border-radius: 6px;
+
+    /* soft shadow so it lifts off background */
+    box-shadow: 
+        0px 4px 12px rgba(0,0,0,0.12),
+        inset 0px 0px 0px 2px rgba(255,255,255,0.4);
+
+    /* keeps image clean */
+    object-fit: cover;
+
+    /* slightly imperfect handmade vibe */
+    transform: rotate(-1deg);
+}
+
+.nameLocation {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    width: 70%;
+
 }
 
 
@@ -36,6 +78,33 @@
   width: 200px;
   height: 2px;
   margin: 10px auto;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    justify-content: end;
+    align-items: end;
+    padding-right: 20px;
+}
+
+.location button {
+    max-width: 190px;
+    
+    background-color: #fdf8f1;
+    border: 2px solid #8da0b8;
+    border-radius: 6px;
+    box-shadow: 
+        0px 4px 12px rgba(0,0,0,0.12),
+        inset 0px 0px 0px 2px rgba(255,255,255,0.4);
+
+    cursor: pointer;
+
+    font-family: "Pompiere", sans-serif;
+
+    font-size: 1.1rem;
 }
 
 
@@ -47,41 +116,35 @@
 ********************* */
 .div1_2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
-    height: 100%;
+    height: 90%;
 
     align-items: center;
-    justify-content: space-around;
+    justify-content: end;
+    gap: 15px;
 
-    flex: 2;
-}
+    flex: 1;
 
-.div1_2_1 {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-
-    height: 100%;
-
+    padding: 20px;
 
 }
 
-.div1_2_2 {
-    display: flex;
-    flex-direction: column;
 
-    height: 100%;
-    justify-content: center;
+.div1_2 button {
+    flex: 1;
 
+    background-color: #fdf8f1;
+    border: 2px solid #8da0b8;
+    border-radius: 6px;
+    box-shadow: 
+        0px 4px 12px rgba(0,0,0,0.12),
+        inset 0px 0px 0px 2px rgba(255,255,255,0.4);
 
-}
+    cursor: pointer;
 
-.git_linkedin_download_butttons_container {
-    display: flex;
-    flex-direction: row;
+    font-family: "Pompiere", sans-serif;
 
-
+    font-size: 1.6rem;
 }
 

@@ -4,17 +4,6 @@
   scale: 1.1;
 }
 
-.university_container h3,
-.highSchool_container h3,
-.aboutMe_paragraph {
-  font-family: "Pompiere", sans-serif;
-  font-weight: bold;
-  font-size: 1.4rem;
-  
-}
 
-.university_container , .highSchool_container {
-  font-family: "Pompiere", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
+

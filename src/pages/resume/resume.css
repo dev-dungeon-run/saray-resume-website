@@ -15,7 +15,6 @@
     background-repeat: repeat;
 
     width: 100vw;
-    font-family: 'Bangers', cursive;
 
     margin: 0px;
 }
@@ -27,8 +26,6 @@
 
     align-items: start;
     justify-content: center;
-    
-
 }
 
 .container {
@@ -40,9 +37,11 @@
     
     aspect-ratio: 1 / 1.6;
 
-    background-color: rgba(210, 199, 199, 0.885);
+    background-color: #F9F4EC;
 
     gap: 20px;
+
+    font-family: "Pompiere", sans-serif;
 
 }
 
