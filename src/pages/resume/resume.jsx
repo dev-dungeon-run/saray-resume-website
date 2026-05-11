@@ -27,7 +27,10 @@ function Resume() {
 
               <div className="nameLocation">
                 <div className="myName_Student">
-                  <h1 className="sarayMartinez">Saray Alexandra <br /> Martinez</h1>
+                  <h6 className="sarayMartinez">
+                    <span>Saray Alexandra</span>
+                    <span>Martinez</span>
+                  </h6>
 
                   <div className="line"></div>
 
@@ -35,10 +38,14 @@ function Resume() {
 
                 </div>
                 <div className="location">
-                  <p> this is me ladi da</p>
-                  <button className="location">
-                    Location: León, GTO
-                  </button>
+                  <p> Software Student</p>
+                  <a
+                    href="https://maps.app.goo.gl/q6Kq25m96ChFWQUm8"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button>Leon GTO</button>
+                  </a>
                 </div>
               </div>
 
@@ -47,10 +54,36 @@ function Resume() {
 
 
             <div className="div1_2 div1">
-              <button> git</button>
-              <button>linkedin </button>
-              <button>Download</button>
-              <button> email</button>
+
+              <a
+                href="https://github.com/Saristeidyn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Git</button>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/saray-martinez-sam"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>LinkedIn</button>
+              </a>
+
+              <a
+                href="/resume.pdf"
+                download
+              >
+                <button>Download</button>
+              </a>
+
+              <a
+                href="mailto:sarayalexandra.martinez@gmail.com"
+              >
+                <button>Email</button>
+              </a>
+
             </div>
           </div>
 
@@ -115,11 +148,6 @@ function Resume() {
 
 
             </div>
-
-
-
-
-
 
 
             {/* second div */}
@@ -194,7 +222,19 @@ function Resume() {
                       <li>Unity</li>
                     </ul>
                   </div>
+
+                  <div className="Testing ">
+                    <h2>Testing</h2>
+                    <ul>
+                      <li>Jest</li>
+                      <li>Cypress</li>
+                      <li>Playwright</li>
+                    </ul>
+                  </div>
+
                 </div>
+
+
 
               </div>
 

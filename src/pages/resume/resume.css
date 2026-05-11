@@ -6,7 +6,7 @@
     height: 100;
 
     background-image:
-        linear-gradient(rgba(185, 207, 227, 0.705), rgb(155, 160, 162)),
+        linear-gradient(rgba(235, 241, 247, 0.705), rgb(255, 255, 255)),
         url("../../assets/resume_page_images/resume_back.png");
 
     background-size: contain;

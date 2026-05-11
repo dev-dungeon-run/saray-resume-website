@@ -61,6 +61,9 @@
 
 .abtMe_conatiner {
 
+    display: flex;
+    flex-direction: column;
+
     background-image:
         url("../../assets/resume_page_images/aboutMe_background.png");
 
@@ -69,6 +72,10 @@
     background-repeat: no-repeat;
 
     flex: 3;
+}
+
+.abtMe_conatiner p {
+    padding: 10px 80px 10px 20px;   
 
 }
 

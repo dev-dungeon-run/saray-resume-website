@@ -72,14 +72,36 @@
     gap: 10px;
 
     width: 70%;
-
 }
 
+.myName_Student {
+  flex: 1;
+
+  padding-top: 40px;
+}
+
+.myName_Student h6 {
+    font-size: 2.5rem;
+    color: #194c89;
+
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+.sarayMartinez span {
+  display: block;
+}
+
+.sarayMartinez span:first-child {
+  margin-bottom: 15px; /* adjust spacing */
+}
 
 .line {
-    width: 200px;
-    height: 2px;
-    margin: 10px auto;
+  width: 250px;
+  height: 4px;
+  background-color: #194c89;
+  margin-bottom: 20px;
 }
 
 .location {
@@ -89,11 +111,11 @@
 
     justify-content: end;
     align-items: end;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .location button {
-    max-width: 190px;
+    width: 150px;
 
     background-color: #fdf8f1;
     border: 2px solid #8da0b8;
@@ -148,4 +170,6 @@
     font-family: "Pompiere", sans-serif;
 
     font-size: 1.6rem;
+
+    width: 200px;
 }
