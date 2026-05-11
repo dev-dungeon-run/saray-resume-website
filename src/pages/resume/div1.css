@@ -13,13 +13,15 @@
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
+
+    border-bottom: 2px solid rgba(246, 225, 203);
 }
 
 
 
 
 /* ****************** */
-      /* div1_1 */
+/* div1_1 */
 /* ******************* */
 .div1_1 {
     display: flex;
@@ -49,9 +51,9 @@
     border-radius: 6px;
 
     /* soft shadow so it lifts off background */
-    box-shadow: 
-        0px 4px 12px rgba(0,0,0,0.12),
-        inset 0px 0px 0px 2px rgba(255,255,255,0.4);
+    box-shadow:
+        0px 4px 12px rgba(0, 0, 0, 0.12),
+        inset 0px 0px 0px 2px rgba(255, 255, 255, 0.4);
 
     /* keeps image clean */
     object-fit: cover;
@@ -75,9 +77,9 @@
 
 
 .line {
-  width: 200px;
-  height: 2px;
-  margin: 10px auto;
+    width: 200px;
+    height: 2px;
+    margin: 10px auto;
 }
 
 .location {
@@ -92,13 +94,13 @@
 
 .location button {
     max-width: 190px;
-    
+
     background-color: #fdf8f1;
     border: 2px solid #8da0b8;
     border-radius: 6px;
-    box-shadow: 
-        0px 4px 12px rgba(0,0,0,0.12),
-        inset 0px 0px 0px 2px rgba(255,255,255,0.4);
+    box-shadow:
+        0px 4px 12px rgba(0, 0, 0, 0.12),
+        inset 0px 0px 0px 2px rgba(255, 255, 255, 0.4);
 
     cursor: pointer;
 
@@ -137,9 +139,9 @@
     background-color: #fdf8f1;
     border: 2px solid #8da0b8;
     border-radius: 6px;
-    box-shadow: 
-        0px 4px 12px rgba(0,0,0,0.12),
-        inset 0px 0px 0px 2px rgba(255,255,255,0.4);
+    box-shadow:
+        0px 4px 12px rgba(0, 0, 0, 0.12),
+        inset 0px 0px 0px 2px rgba(255, 255, 255, 0.4);
 
     cursor: pointer;
 
@@ -147,4 +149,3 @@
 
     font-size: 1.6rem;
 }
-

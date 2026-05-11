@@ -21,8 +21,9 @@
 .skills_1_2, 
 .skills_2,
 .funFactsAbtMe_container,
-.strengths_section,
-.interests_section {
+.interestStrengths_container,
+.languages_container {
   border: 2px solid rgba(246, 225, 203);
   border-radius: 10px;
+  margin: 10px;
 }

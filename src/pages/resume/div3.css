@@ -11,10 +11,15 @@
 .interestStrengths_container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+
+    background-image:
+        url("../../assets/resume_page_images/intrestStrength_background.png");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 
     flex: 4;
-
 }
 
 .languages_container {
@@ -23,6 +28,14 @@
 }
 
 .languages_container {
+
+  background-image:
+        url("../../assets/resume_page_images/languages_background.png");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
   width: 100%;
   padding: 20px;
 }
