@@ -4,6 +4,25 @@
   scale: 1.1;
 }
 
+.container h1 {
+  font-size: 1.9rem;
+  color: #194c89;
+}
 
+.container h2 {
+  font-size: 1.2rem;
+  color: #679ad9;
+}
 
-
+.education_container, 
+.abtMe_conatiner, 
+.jobs_projects_container, 
+.skills_1_1, 
+.skills_1_2, 
+.skills_2,
+.funFactsAbtMe_container,
+.strengths_section,
+.interests_section {
+  border: 2px solid rgba(246, 225, 203);
+  border-radius: 10px;
+}

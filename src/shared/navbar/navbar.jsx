@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <ul className = "links">
-                <li className="projects_link link"><Link to="/">Projectsddsds</Link></li>
+                <li className="projects_link link"><Link to="/">Projects</Link></li>
                 <li className="resume_link link"><Link to="/resume">Resume</Link></li>
             </ul>
 

@@ -66,13 +66,13 @@ function Resume() {
               <div className="education_container">
                 <h1>Education</h1>
                 <div className="highSchool_container">
-                  <h3>Collins Hill High School</h3>
+                  <h2>Collins Hill High School</h2>
                   <h5>High School Diploma</h5>
                   <p>Lawrenceville, GA</p>
                 </div>
                 <div className="line"></div>
                 <div className="university_container">
-                  <h3>Universidad La Salle Bajio</h3>
+                  <h2>Universidad La Salle Bajio</h2>
                   <h5>Software and Computer Science</h5>
                   <p>León GTO <br />2022 - Dec 2026</p>
 
@@ -80,7 +80,7 @@ function Resume() {
               </div>
 
               <div className="abtMe_conatiner">
-                <h2>About Me</h2>
+                <h1>About Me</h1>
                 <p className="aboutMe_paragraph">I’m a Software Engineering student at La Salle Bajío, originally from Georgia and raised in the United States. Living between cultures has shaped my perspective on communication and language, and I enjoy hearing and experiencing new ones. I’m also interested in personal growth and inner peace, which influence how I approach both life and my work. I enjoy building interactive and thoughtful projects that combine creativity and technology.</p>
 
               </div>

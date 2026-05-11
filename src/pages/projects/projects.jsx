@@ -81,12 +81,14 @@ function Projects() {
                 onClick={() => setSelectedProject("website1")}
               >
                 <div className="website1-div website_dives">
-                  <h1>Website1</h1>
+                  <h1>Html. CSS</h1>
 
-                  <h2>name of the project</h2>
+                  <h2>Toon Cafe
+                    
+                  </h2>
 
                   <a
-                    href="https://your-project-link.com"
+                    href="https://dev-dungeon-run.github.io/cartoonCafe/frontend/showTimes/showTimes.html"
                     target="_blank"
                     rel="noreferrer"
                     className="view-project-button website1-view-project-button"
@@ -105,14 +107,14 @@ function Projects() {
               >
                 <div className="website2-div website_dives">
                   <h1>
-                    Website2
+                    Unity
                   </h1>
 
                   <h2>
-                    name of the project
+                    Flappy Bird knock Off
                   </h2>
                   <a
-                    href="https://your-project-link.com"
+                    href="https://dev-dungeon-run.github.io/flappyBird_web/"
                     target="_blank"
                     rel="noreferrer"
                     className="view-project-button website2-view-project-button"
