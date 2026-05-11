@@ -88,7 +88,7 @@ function Projects() {
                   </h2>
 
                   <a
-                    href="https://dev-dungeon-run.github.io/cartoonCafe/frontend/showTimes/showTimes.html"
+                    href="https://dev-dungeon-run.github.io/cartoonCafe/"
                     target="_blank"
                     rel="noreferrer"
                     className="view-project-button website1-view-project-button"
