@@ -72,8 +72,8 @@ function Resume() {
               </a>
 
               <a
-                href="/saray-resume-website/documents/Saray_Alexandra_Martinez_CV1.pdf"
-                download="Saray_Alexandra_Martinez_CV1.pdf"
+                href="/saray-resume-website/documents/Saray_Alexandra_Martinez_CV.pdf"
+                download="Saray_Alexandra_Martinez_CV.pdf"
               >
                 <button>Download</button>
               </a>
