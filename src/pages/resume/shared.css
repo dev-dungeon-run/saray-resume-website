@@ -14,6 +14,13 @@
   color: #679ad9;
 }
 
+.container p,
+.container li,
+.container h1,
+.container h2 {
+  overflow-wrap: anywhere;
+}
+
 .education_container, 
 .abtMe_conatiner, 
 .jobs_projects_container, 
@@ -24,4 +31,14 @@
   border: 2px solid rgba(246, 225, 203);
   border-radius: 10px;
   margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 1.6rem;
+  }
+
+  .container h2 {
+    font-size: 1.05rem;
+  }
 }

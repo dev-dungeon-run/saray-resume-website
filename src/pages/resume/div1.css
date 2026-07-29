@@ -173,3 +173,72 @@
 
     width: 200px;
 }
+@media (max-width: 768px) {
+    .main_div1 {
+        flex-direction: column;
+        padding: 16px 10px;
+    }
+
+    .div1_1 {
+        flex-direction: column;
+        gap: 16px;
+        padding: 10px 0;
+    }
+
+    .resume_image {
+        height: auto;
+        max-height: none;
+        width: min(65vw, 220px);
+    }
+
+    .nameLocation {
+        width: 100%;
+        align-items: center;
+    }
+
+    .myName_Student {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .myName_Student h6 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .line {
+        width: min(80vw, 220px);
+        margin-bottom: 12px;
+    }
+
+    .location {
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .location button {
+        width: min(90vw, 180px);
+    }
+
+    .div1_2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0 0;
+        justify-content: center;
+    }
+
+    .div1_2 a {
+        flex: 1 1 calc(50% - 8px);
+        display: flex;
+        justify-content: center;
+    }
+
+    .div1_2 button {
+        width: 100%;
+        min-width: 0;
+        font-size: 1.3rem;
+    }
+}

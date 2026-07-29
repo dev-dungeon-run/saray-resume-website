@@ -199,3 +199,69 @@
   padding-left: 0;
 }
 
+@media (max-width: 768px) {
+    .main_div2 {
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .divs2 {
+        width: 100%;
+        height: auto;
+        flex: none;
+    }
+
+    .divs2_1,
+    .divs2_2 {
+        width: 100%;
+    }
+
+    .education_container,
+    .abtMe_conatiner,
+    .jobs_projects_container,
+    .skills_container,
+    .funFactsAbtMe_container {
+        margin: 0;
+        padding: 12px;
+    }
+
+    .highSchool_container,
+    .university_container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 0;
+        gap: 4px;
+    }
+
+    .abtMe_conatiner p {
+        padding: 8px 0 0;
+    }
+
+    .jobs_projects_container {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .skills_1,
+    .skills_2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skills_1_1,
+    .skills_1_2 {
+        width: 100%;
+        flex: none;
+    }
+
+    .skills_container ul,
+    .funFactsAbtMe_container ul {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .skills_2 {
+        padding: 0;
+    }
+}

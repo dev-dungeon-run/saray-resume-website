@@ -72,3 +72,18 @@
   width: 45%;
   background-color: #FF9800;
 }
+@media (max-width: 768px) {
+  .main_div3 {
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .interestStrengths_container,
+  .languages_container {
+    flex: none;
+    width: 100%;
+    margin: 0;
+    padding: 12px;
+  }
+}
