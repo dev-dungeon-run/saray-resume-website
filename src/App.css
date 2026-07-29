@@ -1,9 +1,18 @@
 
+.app {
+    min-height: 100vh;
+    width: 100%;
+}
+
 .page-content {
     display: flex;
     margin: 0;
-    height: 100vh;
+    min-height: 100dvh;
     width: 100%;
+}
 
-
+@media (max-width: 768px) {
+    .page-content {
+        min-height: auto;
+    }
 }

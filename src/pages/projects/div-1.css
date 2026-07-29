@@ -1,12 +1,10 @@
 .div-1 {
     flex: 1;
-    
 }
 
 .all-projects-button {
     padding: 5px 20px;
     height: 60px;
-
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(220, 59, 241, 0.5)),
         url("../../assets/project_page_images/placeHolderFrogGirl.jpg");
@@ -14,35 +12,17 @@
     background-position: center;
     background-repeat: repeat;
     font-family: Bangers;
-
     border-radius: 10px 10px 0px 0;
-    
-
-
 }
-
-
 
 .all-projects-button:hover {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(220, 59, 241, 0.5)),
         url("../../assets/project_page_images/girlLovingACuteCat.jpg");
-
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .contact-info-button {
     position: relative;
@@ -51,60 +31,44 @@
     border-radius: 0px 0px 10px 10px;
     overflow: hidden;
     cursor: pointer;
-
     background-image:
-        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(199, 152, 205, 0.5)), */
         url("../../assets/project_page_images/girlOnStairsWithcreepyEyes.png");
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     color: rgb(206, 197, 206);
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
-
 }
 
-/* 🔥 bottom-left glass card */
 .contact-overlay {
     position: absolute;
     bottom: 15px;
     left: 15px;
-
     max-width: 80%;
-
     backdrop-filter: blur(9px);
-
     padding: 12px;
     border-radius: 10px;
-
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.911);
     text-align: left;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.449);
 }
 
-
-
 .contact-desc {
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
 }
 
-/* links layout */
 .contact-links {
-
     display: flex;
     flex-direction: column;
     gap: 4px;
     margin-bottom: 8px;
 }
 
-/* links style */
 .contact-links a {
     display: flex;
     align-items: center;
     gap: 8px;
-
     text-decoration: none;
     font-size: 12px;
     color: rgb(206, 197, 206);
@@ -119,3 +83,27 @@
     font-size: 14px;
 }
 
+@media (max-width: 900px) {
+    .div-1 {
+        min-height: 260px;
+    }
+
+    .contact-info-button {
+        min-height: 220px;
+    }
+
+    .contact-links a {
+        font-size: 11px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .all-projects-button {
+        height: 52px;
+    }
+
+    .contact-links a {
+        font-size: 10px;
+    }
+}

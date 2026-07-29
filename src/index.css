@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -8,20 +12,23 @@
   background-color: rgb(32, 30, 30);
 }
 
-
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
 
 #root {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-
 }
-
 
 body {
   margin: 0;
-
+  overflow-x: hidden;
   background-size: contain;
   background-position: center;
   background-repeat: repeat;

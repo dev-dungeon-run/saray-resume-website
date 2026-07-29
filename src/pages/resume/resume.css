@@ -1,21 +1,15 @@
 .resume_page {
     display: flex;
     flex-direction: column;
-
-    min-height: 2300px;
-    height: 100;
-
+    min-height: 100%;
+    height: auto;
     background-image:
         linear-gradient(rgba(235, 241, 247, 0.705), rgb(255, 255, 255)),
         url("../../assets/resume_page_images/resume_back.png");
-
-    background-size: contain;
+    background-size: 300px;
     background-position: center;
-    background-size: 300px; /* or any fixed size */
     background-repeat: repeat;
-
     width: 100%;
-
     margin: 0px;
 }
 
@@ -23,9 +17,9 @@
     display: flex;
     width: 100%;
     height: 100%;
-
     align-items: start;
     justify-content: center;
+    padding: 16px;
 }
 
 .container {
@@ -33,15 +27,10 @@
     flex-direction: column;
     width: 100%;
     max-width: 1100px;
-
     aspect-ratio: 1 / 1.6;
-
     background-color: rgba(254, 245, 237);
-
     gap: 20px;
-
     font-family: "Pompiere", sans-serif;
-
 }
 
 .main_div {
@@ -59,4 +48,16 @@
 
 .main_div3 {
     flex: 1;
-}   
+}
+
+@media (max-width: 768px) {
+    .resume_container {
+        padding: 10px;
+    }
+
+    .container {
+        aspect-ratio: auto;
+        min-height: auto;
+        gap: 12px;
+    }
+}
